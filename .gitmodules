@@ -1,0 +1,3 @@
+[submodule "modules/xreal_one_driver"]
+	path = modules/xreal_one_driver
+	url = https://github.com/rohitsangwan01/xreal_one_driver.git
