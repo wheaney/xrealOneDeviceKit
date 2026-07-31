@@ -10,6 +10,7 @@ device_imu_error_type device_imu_open_xreal_one(device_imu_type* device, device_
     }
 
     memset(device, 0, sizeof(device_imu_type));
+    device->sample_rate = 1000;
 
     const imu_hid_info info = {
         .product_id = 0,
